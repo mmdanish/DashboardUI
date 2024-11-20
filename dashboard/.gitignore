@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+.env.* # Exclude all environment variable files
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json # Keep recommended extensions
+.idea/
+.DS_Store # macOS file
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite-related
+*.cache/ # Vite build cache
+.vite/ # Vite temporary files
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+desktop.ini
+
+# Linux-specific
+.trash-*
+
+# Optional: npm or yarn lock files (if using pnpm)
+# Uncomment if you want to ignore these files
+# package-lock.json
+# yarn.lock
