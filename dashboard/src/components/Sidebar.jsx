@@ -24,26 +24,113 @@ const Sidebar = () => {
   const [activeMenu, setActiveMenu] = useState("Dashboard");
 
   const menuItems = [
-    { name: "Dashboard", icon: <img src={MenuCircle} alt="Dashboard Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Documentation", icon: <img src={File} alt="Documentation Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Employee Training", icon: <img src={User} alt="User Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Customer Management", icon: <img src={Customer} alt="Customer Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Supplier Management", icon: <img src={Delivery} alt="Delivery Icon" className="w-[20px] h-[20px]" /> },
-    { name: "User Management", icon: <img src={Userlist} alt="User List Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Energy Management", icon: <img src={Eco} alt="Eco Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Correction", icon: <img src={Alert} alt="Alert Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Objectives & Targets", icon: <img src={Target} alt="Target Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Solar Management", icon: <img src={Solar} alt="Solar Icon" className="w-[20px] h-[20px]" /> },
+    {
+      name: "Dashboard",
+      icon: (
+        <img
+          src={MenuCircle}
+          alt="Dashboard Icon"
+          className="w-[20px] h-[20px]"
+        />
+      ),
+    },
+    {
+      name: "Documentation",
+      icon: (
+        <img
+          src={File}
+          alt="Documentation Icon"
+          className="w-[20px] h-[20px]"
+        />
+      ),
+    },
+    {
+      name: "Employee Training",
+      icon: <img src={User} alt="User Icon" className="w-[20px] h-[20px]" />,
+    },
+    {
+      name: "Customer Management",
+      icon: (
+        <img src={Customer} alt="Customer Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "Supplier Management",
+      icon: (
+        <img src={Delivery} alt="Delivery Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "User Management",
+      icon: (
+        <img
+          src={Userlist}
+          alt="User List Icon"
+          className="w-[20px] h-[20px]"
+        />
+      ),
+    },
+    {
+      name: "Energy Management",
+      icon: <img src={Eco} alt="Eco Icon" className="w-[20px] h-[20px]" />,
+    },
+    {
+      name: "Correction",
+      icon: <img src={Alert} alt="Alert Icon" className="w-[20px] h-[20px]" />,
+    },
+    {
+      name: "Objectives & Targets",
+      icon: (
+        <img src={Target} alt="Target Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "Solar Management",
+      icon: <img src={Solar} alt="Solar Icon" className="w-[20px] h-[20px]" />,
+    },
   ];
 
   const reportItems = [
-    { name: "Meetings", icon: <img src={Meeting} alt="Meeting Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Risks", icon: <img src={Risk} alt="Risks Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Reports & Analysis", icon: <img src={Reports} alt="Reports Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Compliance", icon: <img src={Compliance} alt="Compliance Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Backup", icon: <img src={Backup} alt="Backup Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Non Conformity Report", icon: <img src={Docs} alt="Docs Icon" className="w-[20px] h-[20px]" /> },
-    { name: "Analysis Graph", icon: <img src={Graph} alt="Graph Icon" className="w-[20px] h-[20px]" /> },
+    {
+      name: "Meetings",
+      icon: (
+        <img src={Meeting} alt="Meeting Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "Risks",
+      icon: <img src={Risk} alt="Risks Icon" className="w-[20px] h-[20px]" />,
+    },
+    {
+      name: "Reports & Analysis",
+      icon: (
+        <img src={Reports} alt="Reports Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "Compliance",
+      icon: (
+        <img
+          src={Compliance}
+          alt="Compliance Icon"
+          className="w-[20px] h-[20px]"
+        />
+      ),
+    },
+    {
+      name: "Backup",
+      icon: (
+        <img src={Backup} alt="Backup Icon" className="w-[20px] h-[20px]" />
+      ),
+    },
+    {
+      name: "Non Conformity Report",
+      icon: <img src={Docs} alt="Docs Icon" className="w-[20px] h-[20px]" />,
+    },
+    {
+      name: "Analysis Graph",
+      icon: <img src={Graph} alt="Graph Icon" className="w-[20px] h-[20px]" />,
+    },
   ];
 
   return (
@@ -64,11 +151,7 @@ const Sidebar = () => {
       >
         {/* Logo */}
         <div className="flex items-center justify-center h-20">
-          <img
-            src={Logo}
-            alt="Logo"
-            className="h-[40px] w-[151px]"
-          />
+          <img src={Logo} alt="Logo" className="h-[40px] w-[151px]" />
         </div>
 
         {/* Menu Items */}
