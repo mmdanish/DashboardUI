@@ -145,7 +145,7 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 z-40 w-[272px] bg-[#F7F7F7] shadow-lg overflow-y-auto ${
+        className={`fixed top-0 left-0 z-40 w-[272px] h-screen bg-[#F7F7F7] border-r border-solid overflow-y-auto ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } lg:translate-x-0 transition-transform duration-300`}
       >
