@@ -1,3 +1,4 @@
+import DashboardCards from "./components/DashboardCards";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
@@ -11,6 +12,11 @@ function App() {
       <div className="flex-1 flex flex-col">
         {/* Navbar */}
         <Navbar />
+
+        {/* Dashboard Content */}
+        <div className="flex ml-[17.5rem]">
+          <DashboardCards />
+        </div>
       </div>
     </div>
   );
