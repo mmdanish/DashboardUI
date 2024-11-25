@@ -52,7 +52,7 @@ const DashboardCards = () => {
 
           {/* Middle Section: Title */}
           <div className="mt-4">
-            <p className="text-gray-500 text-sm font-medium">{card.title}</p>
+            <p className="text-black gray-500 text-sm font-bold">{card.title}</p>
           </div>
 
           {/* Bottom Section: Growth Info */}
