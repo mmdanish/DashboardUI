@@ -1,4 +1,5 @@
 import DashboardCards from "./components/DashboardCards";
+import DashboardGraphs from "./components/DashboardGraphs";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 

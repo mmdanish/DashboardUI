@@ -40,7 +40,7 @@ const DashboardCards = () => {
       {cards.map((card, index) => (
         <div
           key={index}
-          className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col justify-between w-[264.5px] h-[142px]"
+          className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col justify-between w-[264.5px] h-[142px] cursor-pointer"
         >
           {/* Top Section: Icon and Count */}
           <div className="flex items-center justify-between">
