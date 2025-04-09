@@ -2,7 +2,6 @@ import React from "react";
 import SearchIcon from "../assets/search.svg";
 import NotificationIcon from "../assets/notification.svg";
 import SettingsIcon from "../assets/settingsIcon.svg";
-import Line from "../assets/line.svg";
 import Profile from "../assets/profile.jpg";
 
 const Navbar = () => {
